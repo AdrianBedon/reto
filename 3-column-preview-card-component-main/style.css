@@ -1,5 +1,6 @@
-@import url(https://fonts.google.com/specimen/Lexend+Deca);
-@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+@import url('https://fonts.cdnfonts.com/css/lexend-deca');
+@import url('https://fonts.cdnfonts.com/css/big-shoulders-display');
+                
 
 body {
     background-color: hsl(0, 0%, 95%);
@@ -39,4 +40,51 @@ body {
 
 .boxLuxury{
     background-color: hsl(179, 100%, 13%);
+}
+
+.box h2 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-size: 30px;
+}
+
+.box p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+}
+
+.box a {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 12px 25px;
+    border-radius: 25px;
+    margin-top: 60px    ;
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all 0.4s ease-in-out;
+}
+
+.boxSedan a {
+    color: hsl(31, 77%, 52%);
+}
+
+.boxSuv a {
+    color: hsl(184, 100%, 22%);
+}
+
+.boxLuxury a {
+    color: hsl(179, 100%, 13%);
+}
+
+.box a:hover {
+    color: hsl(0, 0%, 95%);
+    background: transparent;
+}
+
+@media only screen and (max-width: 375px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
 }
