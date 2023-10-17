@@ -1,0 +1,42 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca',
+        sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 12px;
+    margin: 2;
+    overflow: hidden;
+}
+
+.box {
+    padding: 40px;
+}
+
+.boxSedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.boxSuv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.boxLuxury{
+    background-color: hsl(179, 100%, 13%);
+}
